@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "895a2ed9224487af78ce355072634e5c",
+    "content-hash": "d32710b0df7ec5b6b527fd43661d6571",
     "packages": [
         {
             "name": "casdoor/casdoor-php-sdk",
@@ -457,6 +457,73 @@
             "time": "2023-04-16T18:19:15+00:00"
         },
         {
+            "name": "manticoresoftware/manticoresearch-php",
+            "version": "3.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/manticoresoftware/manticoresearch-php.git",
+                "reference": "a04f9cd56a64aab6a4089f663c03d5400097daa4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/manticoresoftware/manticoresearch-php/zipball/a04f9cd56a64aab6a4089f663c03d5400097daa4",
+                "reference": "a04f9cd56a64aab6a4089f663c03d5400097daa4",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=7.1",
+                "psr/log": ">=1.1"
+            },
+            "require-dev": {
+                "mockery/mockery": "*",
+                "phpunit/phpunit": ">=7.5",
+                "squizlabs/php_codesniffer": ">=3.5"
+            },
+            "suggest": {
+                "ext-curl": "*",
+                "guzzlehttp/psr7": ">=1.6",
+                "monolog/monolog": "*",
+                "php-http/curl-client": ">=1.7",
+                "php-http/httplug": "^1.1",
+                "php-http/message": "^1.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Manticoresearch\\": "src/Manticoresearch/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Manticore Software",
+                    "email": "contact@manticoresearch.com",
+                    "homepage": "https://manticoresearch.com/"
+                },
+                {
+                    "name": "Adrian Nuta",
+                    "email": "adriannuta@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP Client for Manticore Search",
+            "keywords": [
+                "client",
+                "manticoresearch",
+                "search"
+            ],
+            "support": {
+                "chat": "https://slack.manticoresearch.com/",
+                "issues": "https://github.com/manticoresoftware/manticoresearch-php/issues",
+                "source": "https://github.com/manticoresoftware/manticoresearch-php/"
+            },
+            "time": "2023-09-15T10:43:57+00:00"
+        },
+        {
             "name": "paragonie/random_compat",
             "version": "v9.99.100",
             "source": {
@@ -665,6 +732,56 @@
                 "source": "https://github.com/php-fig/http-message/tree/2.0"
             },
             "time": "2023-04-04T09:54:51+00:00"
+        },
+        {
+            "name": "psr/log",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "fe5ea303b0887d5caefd3d431c3e61ad47037001"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/fe5ea303b0887d5caefd3d431c3e61ad47037001",
+                "reference": "fe5ea303b0887d5caefd3d431c3e61ad47037001",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/log/tree/3.0.0"
+            },
+            "time": "2021-07-14T16:46:02+00:00"
         },
         {
             "name": "ralouphie/getallheaders",

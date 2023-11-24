@@ -17,9 +17,14 @@ class ComposerStaticInit719c62fb92245b1c82d3317e84c4b67d
     public static $prefixLengthsPsr4 = array (
         'P' => 
         array (
+            'Psr\\Log\\' => 8,
             'Psr\\Http\\Message\\' => 17,
             'Psr\\Http\\Client\\' => 16,
             'PhpParser\\' => 10,
+        ),
+        'M' => 
+        array (
+            'Manticoresearch\\' => 16,
         ),
         'L' => 
         array (
@@ -42,6 +47,10 @@ class ComposerStaticInit719c62fb92245b1c82d3317e84c4b67d
     );
 
     public static $prefixDirsPsr4 = array (
+        'Psr\\Log\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/log/src',
+        ),
         'Psr\\Http\\Message\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/http-factory/src',
@@ -54,6 +63,10 @@ class ComposerStaticInit719c62fb92245b1c82d3317e84c4b67d
         'PhpParser\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
+        ),
+        'Manticoresearch\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/manticoresoftware/manticoresearch-php/src/Manticoresearch',
         ),
         'League\\OAuth2\\Client\\' => 
         array (
